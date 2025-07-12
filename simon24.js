@@ -12,9 +12,9 @@ document.addEventListener("keypress", function () {  //function to start the gam
     if(started == false) {
         console.log("game started");
         started = true;
+        levelUp();
     }
-
-    levelUp();
+ 
 })
 
 function gameFlash(btn) {  //function to create flash color //
